@@ -14,10 +14,10 @@ export function PrestadorServicoLogin() {
         <Text fontSize="2xl" color="#AAAAAA">Prestador de serviço - MEI</Text>
       </View>
       <View style={{ alignItems: "center", justifyContent: "center", paddingTop: 50 }}>
-        <Input size="xl" variant="outline" placeholder="Nome :" w="100%" />
+        <Input size="2xl" variant="filled" placeholder="Nome :" w="100%" />
       </View>
-      <View style={{ alignItems: "center", justifyContent: "center", paddingTop: 50 }}>
-        <Input size="xl" variant="outline" placeholder="Senha :" w="100%" />
+      <View style={{ alignItems: "center", justifyContent: "center", paddingTop: 35 }}>
+        <Input size="2xl" variant="filled" placeholder="Senha :" w="100%"/>
       </View>
       <View style={{ padding: 15}}>
         <Button color="#2F74B7" style={{ height: 80, backgroundColor: "#2F74B7" }}>
@@ -26,7 +26,11 @@ export function PrestadorServicoLogin() {
           </Text>
         </Button>
       </View>
-
+      <View style={{alignItems: "center", justifyContent: "center"}}>
+        <Text underline color="#000" >
+          Primeira vez
+        </Text>
+      </View>
     </View>
   );
 }
